@@ -44,7 +44,7 @@ export const Contact = () => {
 
     // Construct WhatsApp message link
     const phoneNumber = "+5491133495502"; // Reemplazar con tu número de teléfono
-    const whatsappMessage = encodeURIComponent(message);
+    const whatsappMessage = "Hola, queremos más información";
     const whatsappLink = `https://wa.me/${phoneNumber}?text=${whatsappMessage}`;
 
     // Abrir enlace de WhatsApp en una nueva pestaña
@@ -72,9 +72,9 @@ export const Contact = () => {
             initial="hidden"
             animate="visible"
             exit="exit"
-            className="mb-4 rounded-xl shadow-2xl bg-zinc-800   flex flex-col overflow-hidden mx-4 md:mx-0"
+            className="mb-4 rounded-xl shadow-2xl bg-primario   flex flex-col overflow-hidden mx-4 md:mx-0"
           >
-            <div className="p-4 bg-zinc-700 ">
+            <div className="p-4 bg-secundario/40 ">
               <h2 className="text-zinc-200 font-bold text-sm md:text-xl ">
                 ¿Queres mejorar tu empresa? 👇
               </h2>
